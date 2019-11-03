@@ -2,7 +2,7 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 
-# To use this progarm, you have to have a token from Genius.com
+# To use this program, you have to have a token from Genius.com
 # Go to https://docs.genius.com/#/search-h2 to get one.
 
 def _get(path, params=None, headers=None):
